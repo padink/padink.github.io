@@ -123,9 +123,9 @@ img {max-width: 100%; max-height: 100%;}
 
 .navbar {margin-bottom: 0px;border: 0;}
 
-.navbar-default {background-color: #fff;}
+.navbar-default {background-color: #FDFDFD;}
 
-.dnav {width: 100%; text-align: center; background-color: white; height: 170px;}
+.dnav {width: 100%; text-align: center; background-color: #FDFDFD; height: 170px;}
 
 .dnav>li {display: inline-block; float: none;}
 
