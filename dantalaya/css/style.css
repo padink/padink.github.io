@@ -659,3 +659,85 @@ ol li{
         height: 110px;
     }
 }
+
+/*User Profiles*/
+
+.dropdown{float: right;}
+
+.dropdown-toggle{
+    background: #2ecc71;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+.dropdown-menu{
+    width: 100%;
+    border-radius: 0px;
+    min-width: 50px;
+}
+.dropdown-menu li{
+    margin: 0px 0px;
+}
+.dropdown-menu li a{
+    padding: 15px 20px;
+}
+.dropdown-menu li a:hover{
+    background: #2ecc71;
+    color: white;
+}
+
+.search-doctor{
+    background: #2ecc71;
+    color: white; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search-doctor h1{
+    margin: 40px 0px;
+}
+
+.search-doctor input,
+.search-doctor textarea,
+.search-doctor select {
+    padding: 10px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    line-height: 24px;
+    width: 50%;
+    border-radius: 0;
+    min-height: 48px;
+    margin-top: 0px;
+}
+
+.search-doctor input:focus,
+.search-doctor textarea:focus,
+.search-doctor select:focus {color: black; background-color: white;}
+
+.search-doctor button{
+    padding: 5px 40px;
+    background: none;
+    border: 2px solid #373233;
+    color: #373233;
+    margin-bottom: 40px;
+}
+.search-doctor button:hover,
+.search-doctor button:focus{
+    background: #373233;
+    color: white;
+    transition: 0.2s all ease-in-out;
+}
+
+.patient-db{
+    min-height: 700px;
+}
+.patient-db p{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+}
