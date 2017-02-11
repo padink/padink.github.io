@@ -866,3 +866,46 @@ display: -webkit-box;
     color: white;
     transition: 0.2s all ease-in-out;
 }
+
+
+
+
+.forgot-pass form {
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    width: 35%;
+}
+
+.forgot-pass .dbtn{
+        float: right;
+    margin-right: 0px;
+}
+
+.forgot-pass input,
+.forgot-pass textarea,
+.forgot-pass select {
+    padding: 10px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    border-radius: 0;
+    min-height: 48px;
+}
+
+.forgot-pass input:focus,
+.forgot-pass textarea:focus,
+.forgot-pass select:focus {color: #fff; background-color: #2ecc71;}
