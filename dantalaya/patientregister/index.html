@@ -83,8 +83,8 @@
                       <div class="container dreggrid">
               <div class="row">
                   <div class="col-md-12">
-                      <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+                      <form action="#" method="post" id="contactForm" name="contactForm" onsubmit="return PatientValidate()">
+          <fieldset>
           
           
            <div class="row">
@@ -93,19 +93,20 @@
             <div class="col-md-6 dregpad">
                  
                   <div>
-						   <label for="contactName">First Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName" title="overall type: NAME_FULL
+               <label for="contactName">First Name <span class="required">*</span><div id="fname_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="contactName" name="contactName" title="overall type: NAME_FULL
     server type: NAME_FULL
     heuristic type: NAME_FULL
     label: Name *
     parseable name: contactName
     field signature: 3196301078
     form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+    
                   </div>
 
                   <div>
-						   <label for="gender">Gender <span class="required">*</span></label>
-						   <select class="form-control"  id="gender" name="gender" >
+               <label for="gender">Gender <span class="required">*</span></label>
+               <select class="form-control"  id="gender" name="gender" >
                               <option>Male</option>
                               <option>Female</option>
                               <option>Other</option>
@@ -113,13 +114,15 @@
                   </div>
                   
                   <div>
-						   <label for="aadhaar">Aadhaar number </label>
-						   <input type="text" value="" size="35" id="aadhaar" name="aadhaar" >
+               <label for="aadhaar">Aadhaar number <div id="aadhaar_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="aadhaar" name="aadhaar" >
+               
                   </div>
 
                   <div>
-						   <label for="residential">Residential Address<span class="required">*</span></label>
-						   <textarea cols="40" rows="6" id="residential" name="residential"></textarea>
+               <label for="residential">Residential Address<span class="required">*</span><div id="addr_error" class="val_error"></div></label>
+               <textarea cols="40" rows="6" id="residential" name="residential"></textarea>
+               
                   </div>
                   
             </div>
@@ -127,26 +130,28 @@
             <div class="col-md-6">
 
                  <div>
-						   <label for="lastName">Last Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="lastName" name="lastName" title="overall type: NAME_FULL
+               <label for="lastName">Last Name <span class="required">*</span><div id="lname_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="lastName" name="lastName" title="overall type: NAME_FULL
     server type: NAME_FULL
     heuristic type: NAME_FULL
     label: Name *
     parseable name: contactName
     field signature: 3196301078
     form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+                
                   </div>
                  
                  
                   <div>
-						   <label for="date">Date of Birth <span class="required">*</span></label>
-						   <input type="date" value="" size="35" id="date" name="date" title="overall type: NAME_FULL
+               <label for="date">Date of Birth <span class="required">*</span><div id="dob_error" class="val_error"></div></label>
+               <input type="date" value="" size="35" id="date" name="date" title="overall type: NAME_FULL
     server type: NAME_FULL
     heuristic type: NAME_FULL
     label: Name *
     parseable name: contactName
     field signature: 3196301078
     form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+    
                   </div>
                   
             </div>
@@ -161,13 +166,15 @@
             <div class="col-md-6 dregpad">
                  
                   <div>
-						   <label for="City">City <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="City" name="City">
+               <label for="City">City <span class="required">*</span><div id="city_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="City" name="City">
+               
                   </div>
 
                   <div>
-						   <label for="pin">Pin <span class="required">*</span></label>
-						   <input type="number" value="" size="35" id="pin" name="pin">
+               <label for="pin">Pin <span class="required">*</span><div id="pin_error" class="val_error"></div></label>
+               <input type="number" value="" size="35" id="pin" name="pin">
+               
                   </div>
                   
              
@@ -177,8 +184,8 @@
             <div class="col-md-6">
 
                <div>
-						   <label for="state">State <span class="required">*</span></label>
-						   <select class="form-control"  id="state" name="state" >
+               <label for="state">State <span class="required">*</span></label>
+               <select class="form-control"  id="state" name="state" >
                               <option value="">Andhra Pradesh</option>
                               <option value="">Arunachal Pradesh</option>
                               <option value="">Assam</option>
@@ -223,8 +230,9 @@
             <div class="col-md-6 dregpad">
                  
                   <div>
-						   <label for="mobile">Mobile <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="mobile" name="mobile">
+               <label for="mobile">Mobile <span class="required">*</span><div id="mobileno_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="mobile" name="mobile">
+               
                   </div>
               
             </div>
@@ -232,8 +240,9 @@
             <div class="col-md-6">
 
              <div>
-					<label for="mobile">Email <span class="required">*</span></label>
-					<input type="text" value="" size="35" id="email" name="email">
+          <label for="mobile">Email <span class="required">*</span><div id="email_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="email" name="email">
+          
              </div>
          </div>
 
@@ -246,13 +255,14 @@
             <div class="col-md-6 dregpad">
                  
                   <div>
-						   <label for="sec1">Security Question 1 <span class="required">*</span></label>
-						   <select class="form-control"  id="sec1" name="sec1" >
-                              <option value="">Question 1</option>
-                              <option value="">Question 2</option>
-                              <option value="">Question 3</option>
-                              <option value="">Question 4</option>
-                              <option value="">Question 5</option>
+               <label for="sec1">Security Question 1 <span class="required">*</span><div id="ques1_error" class="val_error"></div></label>
+               <select class="form-control"  id="sec1" name="sec1" >
+                              <option value="">--Select--</option>
+                              <option value="Which phone number do you remember most from your childhood?">Which phone number do you remember most from your childhood?</option>
+                              <option value="What was your favorite place to visit as a child?">What was your favorite place to visit as a child?</option>
+                              <option value="What is the last name of the teacher who gave you your first failing grade?">What is the last name of the teacher who gave you your first failing grade?</option>
+                              <option value="What street did you grow up on?">What street did you grow up on?</option>
+                              
                            </select>
                   </div>
               
@@ -261,8 +271,8 @@
             <div class="col-md-6">
 
              <div>
-					<label for="answer">Answer</label>
-					<input type="text" value="" size="35" id="answer" name="answer">
+          <label for="answer">Answer<div id="ans1_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="answer" name="answer">
              </div>
          </div>
 
@@ -275,13 +285,13 @@
             <div class="col-md-6 dregpad">
                  
                   <div>
-						   <label for="sec2">Security Question 2 <span class="required">*</span></label>
-						   <select class="form-control"  id="sec2" name="sec2" >
-                              <option value="">Question 1</option>
-                              <option value="">Question 2</option>
-                              <option value="">Question 3</option>
-                              <option value="">Question 4</option>
-                              <option value="">Question 5</option>
+               <label for="sec2">Security Question 2 <span class="required">*</span><div id="ques2_error" class="val_error"></div></label>
+               <select class="form-control"  id="sec2" name="sec2" >
+                              <option value="">--Select--</option>
+                              <option value="What time of the day were you born? (hh:mm)">What time of the day were you born? (hh:mm)</option>
+                              <option value="In what city or town does your nearest sibling live?">In what city or town does your nearest sibling live?</option>
+                              <option value="What is the make of your favourite car?">What is the make of your favourite car?</option>
+                              <option value="What was the name of your elementary / primary school?">What was the name of your elementary / primary school?</option>
                            </select>
                   </div>
               
@@ -290,8 +300,8 @@
             <div class="col-md-6">
 
              <div>
-					<label for="answer2">Answer</label>
-					<input type="text" value="" size="35" id="answer2" name="answer2">
+          <label for="answer2">Answer<div id="ans2_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="answer2" name="answer2">
              </div>
          </div>
 
@@ -301,10 +311,10 @@
      <div class="row">
          
          <div class="col-md-12">
-             <div class="dacc"><label><input type="checkbox"><span class="lever"></span>I Agree &amp; accept terms and conditions.</label></div>
+             <div class="dacc"><label><input type="checkbox" required><span class="lever"></span>I Agree &amp; accept terms and conditions.</label></div>
          </div>
             <div class="col-md-12">
-             <div class="dacc"><label><input type="checkbox"><span class="lever"></span>I certify that the information entered are correct to the best of my knowledge and take complete
+             <div class="dacc"><label><input type="checkbox" required><span class="lever"></span>I certify that the information entered are correct to the best of my knowledge and take complete
 responsibility of the authenticity of the data provided.</label></div>
          </div>
          
@@ -319,15 +329,15 @@ responsibility of the authenticity of the data provided.</label></div>
 </div>
                     
 <div class="col-md-6">
-<a href="#"><div class="btn dbtn pull-left">Submit</div></a>
+<button type="submit" class="btn dbtn pull-left" >Submit</div>
 </div>       
      </div>
                   </div>
                   </div>
                   
                   
-					</fieldset>
-				   </form>
+          </fieldset>
+           </form>
                   </div>
               </div>
           </div>                  
@@ -393,14 +403,16 @@ responsibility of the authenticity of the data provided.</label></div>
             </div>
             <div class="row dcopy">
                 <div class="col-md-12">
-                    <p>Copyright © Dantalaya 2017. Developed by <a href="#">Padink</a></p>
+                    <p>Copyright © Dantalaya 2016. Developed by <a href="#">Padink</a></p>
                 </div>
             </div>
         </div>
     </footer>
+
+    
    
  
-
+    <script src="../js/patientvalidate.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 

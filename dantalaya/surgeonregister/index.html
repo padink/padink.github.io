@@ -90,7 +90,7 @@
                     <div class="container dreggrid">
                         <div class="row">
                             <div class="col-md-12">
-                                <form action="" method="post" id="contactForm" name="contactForm">
+                                <form action="#" method="post" id="contactForm" name="contactForm" onsubmit="return SurgeonValidation()">
                                     <fieldset>
 
 
@@ -100,212 +100,225 @@
                                             <div class="col-md-6 dregpad">
 
                                                 <div>
-                                                    <label for="contactName">First Name <span class="required">*</span></label>
-                                                    <input type="text" value="" size="35" id="contactName" name="contactName">
-                                                </div>
-
-                                                <div>
-                                                    <label for="gender">Gender <span class="required">*</span></label>
-                                                    <select class="form-control" id="gender" name="gender">
-                                                        <option>Male</option>
-                                                        <option>Female</option>
-                                                        <option>Other</option>
-                                                    </select>
-                                                </div>
-
-                                                <div>
-                                                    <label for="aadhaar">Aadhaar number </label>
-                                                    <input type="text" value="" size="35" id="aadhaar" name="aadhaar">
-                                                </div>
-
-                                                <div>
-                                                    <label for="residential">Residential Address<span class="required">*</span></label>
-                                                    <textarea cols="40" rows="6" id="residential" name="residential"></textarea>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="col-md-6">
-
-                                                <div>
-                                                    <label for="lastName">Last Name <span class="required">*</span></label>
-                                                    <input type="text" value="" size="35" id="lastName" name="lastName" title="overall type: NAME_FULL
+               <label for="contactName">First Name <span class="required">*</span><div id="fname_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="contactName" name="contactName" title="overall type: NAME_FULL
     server type: NAME_FULL
     heuristic type: NAME_FULL
     label: Name *
     parseable name: contactName
     field signature: 3196301078
     form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
-                                                </div>
-
-
-                                                <div>
-                                                    <label for="date">Date of Birth <span class="required">*</span></label>
-                                                    <input type="date" value="" size="35" id="date" name="date">
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-
-
-                                        <div class="row">
-
-
-                                            <div class="col-md-6 dregpad">
+    
+                  </div>
 
                                                 <div>
-                                                    <label for="City">City <span class="required">*</span></label>
-                                                    <input type="text" value="" size="35" id="City" name="City">
-                                                </div>
+               <label for="gender">Gender <span class="required">*</span></label>
+               <select class="form-control"  id="gender" name="gender" >
+                              <option>Male</option>
+                              <option>Female</option>
+                              <option>Other</option>
+                           </select>
+                  </div>
+                  
+                  <div>
+               <label for="aadhaar">Aadhaar number <div id="aadhaar_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="aadhaar" name="aadhaar" >
+               
+                  </div>
 
-                                                <div>
-                                                    <label for="pin">Pin <span class="required">*</span></label>
-                                                    <input type="number" value="" size="35" id="pin" name="pin">
-                                                </div>
+                  <div>
+               <label for="residential">Residential Address<span class="required">*</span><div id="addr_error" class="val_error"></div></label>
+               <textarea cols="40" rows="6" id="residential" name="residential"></textarea>
+               
+                  </div>
+                  
+            </div>
+                 
+            <div class="col-md-6">
 
+                 <div>
+               <label for="lastName">Last Name <span class="required">*</span><div id="lname_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="lastName" name="lastName" title="overall type: NAME_FULL
+    server type: NAME_FULL
+    heuristic type: NAME_FULL
+    label: Name *
+    parseable name: contactName
+    field signature: 3196301078
+    form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+                
+                  </div>
+                 
+                 
+                  <div>
+               <label for="date">Date of Birth <span class="required">*</span><div id="dob_error" class="val_error"></div></label>
+               <input type="date" value="" size="35" id="date" name="date" title="overall type: NAME_FULL
+    server type: NAME_FULL
+    heuristic type: NAME_FULL
+    label: Name *
+    parseable name: contactName
+    field signature: 3196301078
+    form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+    
+                  </div>
+                  
+            </div>
 
+                  
+</div>
+          
+          
+            <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="City">City <span class="required">*</span><div id="city_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="City" name="City">
+               
+                  </div>
 
-                                            </div>
+                  <div>
+               <label for="pin">Pin <span class="required">*</span><div id="pin_error" class="val_error"></div></label>
+               <input type="number" value="" size="35" id="pin" name="pin">
+               
+                  </div>
+                  
+             
+                  
+            </div>
+                 
+            <div class="col-md-6">
+
+               <div>
+               <label for="state">State <span class="required">*</span></label>
+               <select class="form-control"  id="state" name="state" >
+                              <option value="">Andhra Pradesh</option>
+                              <option value="">Arunachal Pradesh</option>
+                              <option value="">Assam</option>
+                              <option value="">Bihar</option>
+                              <option value="">Chhattisgarh</option>
+                              <option value="">New Delhi</option>
+                              <option value="">Goa</option>
+                              <option value="">Gujarat</option>
+                              <option value="">Haryana</option>
+                              <option value="">Himachal Pradesh</option>
+                              <option value="">Jammu and Kashmir</option>
+                              <option value="">Jharkhand</option>
+                              <option value="">Karnataka</option>
+                              <option value="">Kerala</option>
+                              <option value="">Madhya Pradesh</option>
+                              <option value="">Maharashtra</option>
+                              <option value="">Manipur</option>
+                              <option value="">Meghalaya</option>
+                              <option value="">Mizoram</option>
+                              <option value="">Nagaland</option>
+                              <option value="">Puducherry</option>
+                              <option value="">Punjab</option>
+                              <option value="">Rajasthan</option>
+                              <option value="">Sikkim</option>
+                              <option value="">Tamil Nadu</option>
+                              <option value="">Telangana</option>
+                              <option value="">Tripura</option>
+                              <option value="">Uttar Pradesh</option>
+                              <option value="">Uttarakhand</option>
+                              <option value="">West Bengal</option>
+                           </select>
+                  </div>
+                  
+            </div>
+
+                  
+</div>
+         
+                     <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="mobile">Mobile <span class="required">*</span><div id="mobileno_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="mobile" name="mobile">
+               
+                  </div>
+                  </div>
 
                                             <div class="col-md-6">
 
-                                                <div>
-                                                    <label for="state">State <span class="required">*</span></label>
-                                                    <select class="form-control" id="state" name="state">
-                                                        <option value="">Andhra Pradesh</option>
-                                                        <option value="">Arunachal Pradesh</option>
-                                                        <option value="">Assam</option>
-                                                        <option value="">Bihar</option>
-                                                        <option value="">Chhattisgarh</option>
-                                                        <option value="">New Delhi</option>
-                                                        <option value="">Goa</option>
-                                                        <option value="">Gujarat</option>
-                                                        <option value="">Haryana</option>
-                                                        <option value="">Himachal Pradesh</option>
-                                                        <option value="">Jammu and Kashmir</option>
-                                                        <option value="">Jharkhand</option>
-                                                        <option value="">Karnataka</option>
-                                                        <option value="">Kerala</option>
-                                                        <option value="">Madhya Pradesh</option>
-                                                        <option value="">Maharashtra</option>
-                                                        <option value="">Manipur</option>
-                                                        <option value="">Meghalaya</option>
-                                                        <option value="">Mizoram</option>
-                                                        <option value="">Nagaland</option>
-                                                        <option value="">Puducherry</option>
-                                                        <option value="">Punjab</option>
-                                                        <option value="">Rajasthan</option>
-                                                        <option value="">Sikkim</option>
-                                                        <option value="">Tamil Nadu</option>
-                                                        <option value="">Telangana</option>
-                                                        <option value="">Tripura</option>
-                                                        <option value="">Uttar Pradesh</option>
-                                                        <option value="">Uttarakhand</option>
-                                                        <option value="">West Bengal</option>
-                                                    </select>
-                                                </div>
+             <div>
+          <label for="mobile">Email <span class="required">*</span><div id="email_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="email" name="email">
+          
+             </div>
+         </div>
 
-                                            </div>
+                  
+</div>
+
+<div class="row">
 
 
-                                        </div>
+<div class="col-md-6 dregpad">
 
-                                        <div class="row">
+<div>
+<label for="si">Date of Starting internship <span class="required">*</span><div id="si_error" class="val_error"></div></label>
+<input type="date" value="" size="35" id="si" name="si">
+</div>
 
+</div>
 
-                                            <div class="col-md-6 dregpad">
+<div class="col-md-6">
 
-                                                <div>
-                                                    <label for="mobile">Mobile <span class="required">*</span></label>
-                                                    <input type="text" value="" size="35" id="mobile" name="mobile">
-                                                </div>
-
-                                                <div>
-                                                    <label for="col">College / Institutions <span class="required">*</span></label>
-                                                    <input type="text" value="" size="35" id="col" name="col">
-                                                </div>
-
-                                            </div>
-
-                                            <div class="col-md-6">
-
-                                                <div>
-                                                    <label for="mobile">Email <span class="required">*</span></label>
-                                                    <input type="text" value="" size="35" id="email" name="email">
-                                                </div>
-                                            </div>
+<div>
+<label for="ci">Date of Completing internship <span class="required">*</span><div id="ci_error" class="val_error"></div></label>
+<input type="date" value="" size="35" id="ci" name="ci">
+</div>
+</div>
 
 
-                                        </div>
-
-                                        <div class="row">
+</div>
 
 
-                                            <div class="col-md-6 dregpad">
+<div class="row">
 
-                                                <div>
-                                                    <label for="si">Date of Starting internship <span class="required">*</span></label>
-                                                    <input type="date" value="" size="35" id="si" name="si">
-                                                </div>
+<div class="col-md-12">
+<div class="dacc">
+<label>
+<input type="checkbox" required=""><span class="lever"></span>I Agree &amp; accept terms and conditions.</label>
+</div>
+</div>
+<div class="col-md-12">
+<div class="dacc">
+<label>
+<input type="checkbox" required=""><span class="lever"></span>I certify that the information entered are correct to the best of my knowledge and take complete responsibility of the authenticity of the data provided.</label>
+</div>
+</div>
 
-                                            </div>
-
-                                            <div class="col-md-6">
-
-                                                <div>
-                                                    <label for="ci">Date of Completing internship <span class="required">*</span></label>
-                                                    <input type="date" value="" size="35" id="ci" name="ci">
-                                                </div>
-                                            </div>
-
-
-                                        </div>
+</div>
 
 
-                                        <div class="row">
+<div class="row dsub">
+<div class="col-md-12">
+<div class="dgal">
+<div class="col-md-6">
+<a href="#">
+<div class="btn dbtn pull-right ddis">Reset</div>
+</a>
+</div>
 
-                                            <div class="col-md-12">
-                                                <div class="dacc">
-                                                    <label>
-                                                        <input type="checkbox"><span class="lever"></span>I Agree &amp; accept terms and conditions.</label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="dacc">
-                                                    <label>
-                                                        <input type="checkbox"><span class="lever"></span>I certify that the information entered are correct to the best of my knowledge and take complete responsibility of the authenticity of the data provided.</label>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-                                        <div class="row dsub">
-                                            <div class="col-md-12">
-                                                <div class="dgal">
-                                                    <div class="col-md-6">
-                                                        <a href="#">
-                                                            <div class="btn dbtn pull-right ddis">Reset</div>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="col-md-6">
-                                                        <a href="#">
-                                                            <div class="btn dbtn pull-left">Submit</div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+<div class="col-md-6">
+<button type="submit" class="btn dbtn pull-left" >Submit
+</div>
+</div>
+</div>
+</div>
 
 
-                                    </fieldset>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
 
 
 
@@ -373,12 +386,14 @@
             </div>
             <div class="row dcopy">
                 <div class="col-md-12">
-                    <p>Copyright © Dantalaya 2017. Developed by <a href="#">Padink</a></p>
+                    <p>Copyright © Dantalaya 2016. Developed by <a href="#">Padink</a></p>
                 </div>
             </div>
         </div>
     </footer>
-
+    <script src="../js/surgeonvalidate.js">
+        
+    </script>
 
 
     <script src="../js/jquery.min.js"></script>

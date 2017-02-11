@@ -71,153 +71,289 @@
             </div>
         </div>
     </nav>
-    <section class="patient-db">
+   <section id="dpreg">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <p>Patient Profile</p>
-                </div>
+                  
+                  <p class="dserhead">Patient Profile</p>
+                  
+                      <div class="container dreggrid">
+              <div class="row">
+                  <div class="col-md-12">
+                      <form action="#" method="post" id="contactForm" name="contactForm" onsubmit="return PatientValidate()">
+          <fieldset>
+          
+          
+           <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="contactName">First Name <span class="required">*</span><div id="fname_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="contactName" name="contactName" title="overall type: NAME_FULL
+    server type: NAME_FULL
+    heuristic type: NAME_FULL
+    label: Name *
+    parseable name: contactName
+    field signature: 3196301078
+    form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+    
+                  </div>
+
+                  <div>
+               <label for="gender">Gender <span class="required">*</span></label>
+               <select class="form-control"  id="gender" name="gender" >
+                              <option>Male</option>
+                              <option>Female</option>
+                              <option>Other</option>
+                           </select>
+                  </div>
+                  
+                  <div>
+               <label for="aadhaar">Aadhaar number <div id="aadhaar_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="aadhaar" name="aadhaar" >
+               
+                  </div>
+
+                  <div>
+               <label for="residential">Residential Address<span class="required">*</span><div id="addr_error" class="val_error"></div></label>
+               <textarea cols="40" rows="6" id="residential" name="residential"></textarea>
+               
+                  </div>
+                  
+            </div>
+                 
+            <div class="col-md-6">
+
+                 <div>
+               <label for="lastName">Last Name <span class="required">*</span><div id="lname_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="lastName" name="lastName" title="overall type: NAME_FULL
+    server type: NAME_FULL
+    heuristic type: NAME_FULL
+    label: Name *
+    parseable name: contactName
+    field signature: 3196301078
+    form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+                
+                  </div>
+                 
+                 
+                  <div>
+               <label for="date">Date of Birth <span class="required">*</span><div id="dob_error" class="val_error"></div></label>
+               <input type="date" value="" size="35" id="date" name="date" title="overall type: NAME_FULL
+    server type: NAME_FULL
+    heuristic type: NAME_FULL
+    label: Name *
+    parseable name: contactName
+    field signature: 3196301078
+    form signature: 17693863561870007841" autofill-prediction="NAME_FULL">
+    
+                  </div>
+                  
+            </div>
+
+                  
+</div>
+          
+          
+            <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="City">City <span class="required">*</span><div id="city_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="City" name="City">
+               
+                  </div>
+
+                  <div>
+               <label for="pin">Pin <span class="required">*</span><div id="pin_error" class="val_error"></div></label>
+               <input type="number" value="" size="35" id="pin" name="pin">
+               
+                  </div>
+                  
+             
+                  
+            </div>
+                 
+            <div class="col-md-6">
+
+               <div>
+               <label for="state">State <span class="required">*</span></label>
+               <select class="form-control"  id="state" name="state" >
+                              <option value="">Andhra Pradesh</option>
+                              <option value="">Arunachal Pradesh</option>
+                              <option value="">Assam</option>
+                              <option value="">Bihar</option>
+                              <option value="">Chhattisgarh</option>
+                              <option value="">New Delhi</option>
+                              <option value="">Goa</option>
+                              <option value="">Gujarat</option>
+                              <option value="">Haryana</option>
+                              <option value="">Himachal Pradesh</option>
+                              <option value="">Jammu and Kashmir</option>
+                              <option value="">Jharkhand</option>
+                              <option value="">Karnataka</option>
+                              <option value="">Kerala</option>
+                              <option value="">Madhya Pradesh</option>
+                              <option value="">Maharashtra</option>
+                              <option value="">Manipur</option>
+                              <option value="">Meghalaya</option>
+                              <option value="">Mizoram</option>
+                              <option value="">Nagaland</option>
+                              <option value="">Puducherry</option>
+                              <option value="">Punjab</option>
+                              <option value="">Rajasthan</option>
+                              <option value="">Sikkim</option>
+                              <option value="">Tamil Nadu</option>
+                              <option value="">Telangana</option>
+                              <option value="">Tripura</option>
+                              <option value="">Uttar Pradesh</option>
+                              <option value="">Uttarakhand</option>
+                              <option value="">West Bengal</option>
+                           </select>
+                  </div>
+                  
+            </div>
+
+                  
+</div>
+         
+                     <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="mobile">Mobile <span class="required">*</span><div id="mobileno_error" class="val_error"></div></label>
+               <input type="text" value="" size="35" id="mobile" name="mobile">
+               
+                  </div>
+              
+            </div>
+                 
+            <div class="col-md-6">
+
+             <div>
+          <label for="mobile">Email <span class="required">*</span><div id="email_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="email" name="email">
+          
+             </div>
+         </div>
+
+                  
+</div>
+          
+   <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="sec1">Security Question 1 <span class="required">*</span><div id="ques1_error" class="val_error"></div></label>
+               <select class="form-control"  id="sec1" name="sec1" >
+                              <option value="">--Select--</option>
+                              <option value="Which phone number do you remember most from your childhood?">Which phone number do you remember most from your childhood?</option>
+                              <option value="What was your favorite place to visit as a child?">What was your favorite place to visit as a child?</option>
+                              <option value="What is the last name of the teacher who gave you your first failing grade?">What is the last name of the teacher who gave you your first failing grade?</option>
+                              <option value="What street did you grow up on?">What street did you grow up on?</option>
+                              
+                           </select>
+                  </div>
+              
+            </div>
+                 
+            <div class="col-md-6">
+
+             <div>
+          <label for="answer">Answer<div id="ans1_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="answer" name="answer">
+             </div>
+         </div>
+
+                  
+</div>
+          
+   <div class="row">
+           
+           
+            <div class="col-md-6 dregpad">
+                 
+                  <div>
+               <label for="sec2">Security Question 2 <span class="required">*</span><div id="ques2_error" class="val_error"></div></label>
+               <select class="form-control"  id="sec2" name="sec2" >
+                              <option value="">--Select--</option>
+                              <option value="What time of the day were you born? (hh:mm)">What time of the day were you born? (hh:mm)</option>
+                              <option value="In what city or town does your nearest sibling live?">In what city or town does your nearest sibling live?</option>
+                              <option value="What is the make of your favourite car?">What is the make of your favourite car?</option>
+                              <option value="What was the name of your elementary / primary school?">What was the name of your elementary / primary school?</option>
+                           </select>
+                  </div>
+              
+            </div>
+                 
+            <div class="col-md-6">
+
+             <div>
+          <label for="answer2">Answer<div id="ans2_error" class="val_error"></div></label>
+          <input type="text" value="" size="35" id="answer2" name="answer2">
+             </div>
+         </div>
+
+                  
+</div>
+     
+     
+     
+      
+           <div class="row dsub">
+               <div class="col-md-12" style="display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;">
+                <div class="dgal">
+
+                    
+<div class="col-md-6">
+<button type="submit" class="btn dbtn pull-left" >Save Changes</div>
+</div>       
+     </div>
+                  </div>
+                  </div>
+                  
+                  
+          </fieldset>
+           </form>
+                  </div>
+              </div>
+          </div>                  
+    
+           </div>
             </div>
         </div>
-    </section>
-    <section id="dpreg">
-        <div class="container-fluid">
-            <div class="dreggrid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <form action="" method="post" id="contactForm" name="contactForm">
-                            <fieldset>
-                                <div class="row">
-                                    <div class="col-md-6 dregpad">
-                                        <div>
-                                            <label for="contactName">First Name <span class="required">*</span></label>
-                                            <input type="text" value="" size="35" id="contactName" name="contactName" placeholder="sriram" value="Sriram">
-                                        </div>
-                                        <div>
-                                            <label for="gender">Gender <span class="required">*</span></label>
-                                            <select class="form-control" id="gender" name="gender">
-                                                <option>Male</option>
-                                                <option>Female</option>
-                                                <option>Other</option>
-                                            </select>
-                                        </div>
-                                        <div>
-                                            <label for="aadhaar">Aadhaar number </label>
-                                            <input type="text" value="" size="35" id="aadhaar" name="aadhaar">
-                                        </div>
-                                        <div>
-                                            <label for="residential">Residential Address<span class="required">*</span></label>
-                                            <textarea cols="40" rows="6" id="residential" name="residential"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div>
-                                            <label for="lastName">Last Name <span class="required">*</span></label>
-                                            <input type="text" value="" size="35" id="lastName" name="lastName">
-                                        </div>
-                                        <div>
-                                            <label for="date">Date of Birth <span class="required">*</span></label>
-                                            <input type="date" value="" size="35" id="date" name="date">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 dregpad">
-                                        <div>
-                                            <label for="City">City <span class="required">*</span></label>
-                                            <input type="text" value="" size="35" id="City" name="City">
-                                        </div>
-                                        <div>
-                                            <label for="pin">Pin <span class="required">*</span></label>
-                                            <input type="number" value="" size="35" id="pin" name="pin">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div>
-                                            <label for="state">State <span class="required">*</span></label>
-                                            <select class="form-control" id="state" name="state">
-                                                <option value="">Andhra Pradesh</option>
-                                                <option value="">Arunachal Pradesh</option>
-                                                <option value="">Assam</option>
-                                                <option value="">Bihar</option>
-                                                <option value="">Chhattisgarh</option>
-                                                <option value="">New Delhi</option>
-                                                <option value="">Goa</option>
-                                                <option value="">Gujarat</option>
-                                                <option value="">Haryana</option>
-                                                <option value="">Himachal Pradesh</option>
-                                                <option value="">Jammu and Kashmir</option>
-                                                <option value="">Jharkhand</option>
-                                                <option value="">Karnataka</option>
-                                                <option value="">Kerala</option>
-                                                <option value="">Madhya Pradesh</option>
-                                                <option value="">Maharashtra</option>
-                                                <option value="">Manipur</option>
-                                                <option value="">Meghalaya</option>
-                                                <option value="">Mizoram</option>
-                                                <option value="">Nagaland</option>
-                                                <option value="">Puducherry</option>
-                                                <option value="">Punjab</option>
-                                                <option value="">Rajasthan</option>
-                                                <option value="">Sikkim</option>
-                                                <option value="">Tamil Nadu</option>
-                                                <option value="">Telangana</option>
-                                                <option value="">Tripura</option>
-                                                <option value="">Uttar Pradesh</option>
-                                                <option value="">Uttarakhand</option>
-                                                <option value="">West Bengal</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 dregpad">
-                                        <div>
-                                            <label for="mobile">Mobile <span class="required">*</span></label>
-                                            <input type="text" value="" size="35" id="mobile" name="mobile">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div>
-                                            <label for="mobile">Email <span class="required">*</span></label>
-                                            <input type="text" value="" size="35" id="email" name="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row dsub">
-                                    <div class="col-md-12">
-                                        <div class="dgal">
-                                            <div class="col-md-12" style="display: flex; justify-content: center;">
-                                                <a href="#">
-                                                    <div class="btn dbtn pull-left">Save Changes</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--    Footer-->
-    <footer>
+
+</section>
+    
+<!--    Footer-->
+    
+<footer>
         <div class="container-fluid ">
             <div class="row dfoot dpad">
                 <div class="col-md-8 dquick">
                     <h3>quick links</h3>
+                    
                     <div class="row">
+                       
                         <div class="col-md-4">
                             <ul class="dqli">
-                                <li><a href="../../../">Home</a></li>
-                                <li><a href="../../../about/">About Us</a></li>
-                                <li><a href="../../../services/">Our Services</a></li>
-                                <li><a href="../../../gallery/">Gallery</a></li>
-                                <li><a href="../../../contact/">Contact Us</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="../about/">About Us</a></li>
+                                <li><a href="../services/">Our Services</a></li>
+                                <li><a href="../gallery/">Gallery</a></li>
+                                <li><a href="../contact/">Contact Us</a></li>
                             </ul>
                         </div>
+                        
                         <div class="col-md-4">
                             <ul class="dqli">
                                 <li><a href="#">Sitemap</a></li>
@@ -227,6 +363,7 @@
                                 <li><a href="#">Privacy Policy</a></li>
                             </ul>
                         </div>
+                           
                         <div class="col-md-4 dprac">
                             <p>Phone: +91 9941761544</p>
                             <p class="dindent">+91 9941761544</p>
@@ -235,6 +372,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-4 dlast">
                     <h1>Dantalaya</h1>
                     <hr class="dfothr">
@@ -243,22 +381,26 @@
                     <p>#38/48, I floor, Bazar Street</p>
                     <p>Neelasandra, Bangalore-560047 </p>
                     <p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
-                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></i></a>
-                    </p>
-                </div>
+                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+                     <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></i></a> 
+                </p></div>
             </div>
             <div class="row dcopy">
                 <div class="col-md-12">
-                    <p>Copyright © Dantalaya 2017. Developed by <a href="#">Padink</a></p>
+                    <p>Copyright © Dantalaya 2016. Developed by <a href="#">Padink</a></p>
                 </div>
             </div>
         </div>
     </footer>
+
+    
+   
+ 
+    <script src="../../../js/patientvalidate.js"></script>
     <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/bootstrap.min.js"></script>
-</body>
 
+  </body>
 </html>
