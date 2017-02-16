@@ -5,46 +5,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Dashboard | Dantalaya</title>
-
-    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../css/style.css" rel="stylesheet">
-    <link href="../../../css/font-awesome.min.css" rel="stylesheet">
-
+    <title>Change Password | Dantalaya</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-
 </head>
 
 <body>
-
     <section>
         <div class="container-fluid dtop">
             <div class="row">
                 <div class="col-md-8 drightt">
                     <p class="dtopaddr">+91 99417 61544 - info@dantalaya.com</p>
                 </div>
-
                 <div class="col-md-4">
-                <div class="dropdown">
-                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Praveen Juge
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="../dashboard/">Dashboard</a></li>
-                    <li><a href="../patient-profile/">Patient Profile</a></li>
-                    <li><a href="../changepassword/">Change Password</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Logout</a></li>
-                  </ul>
-                </div>
+                    <a href="../#login">
+                        <div class="btn dbtn"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</div>
+                    </a>
+                    <a href="../register/">
+                        <div class="btn  dbtn"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-
-
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -56,84 +41,65 @@
                 </button>
                 <a class="navbar-brand" href="../">
                     <div class="dimg">
-                        <img src="../../../images/logo.png" alt="Logo" />
+                        <img src="../images/logo.png" alt="Logo" />
                     </div>
                 </a>
             </div>
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav dnav">
-                   <li class="dlogo">
-                   <a class="navbar-brand" href="../../../">
-                    <div class="dimg"><img src="../../../images/logo.png" alt="Logo" /></div>
-                   </a></li> 
-                   
-<!--                     <li class="dlifirst"><a href="../../../">Home</a></li>
-                    <li><a href="../../../about/">About Us</a></li>
-                    <li><a href="../../../services/">Our Services</a></li>
-                    <li><a href="../../../specialization/">Specializations</a></li>
-                    <li><a href="../../../gallery/">Smile Gallery</a></li>
-                    <li><a href="../../../contact/">Contact Us</a></li>
+                    <li class="dlogo">
+                        <a class="navbar-brand" href="../">
+                            <div class="dimg"><img src="../images/logo.png" alt="Logo" /></div>
+                        </a>
+                    </li>
+                    <li class="dlifirst"><a href="../">Home</a></li>
+                    <li><a href="../about/">About Us</a></li>
+                    <li><a href="../services/">Our Services</a></li>
+                    <li><a href="../specialization/">Specializations</a></li>
+                    <li><a href="../gallery/">Smile Gallery</a></li>
+                    <li><a href="../contact/">Contact Us</a></li>
                     <li>
                         <input tabindex="1" type="text" name="name" class="text dsearch" Placeholder="Search">
-                    </li> -->
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
-
-
-    <section class="search-doctor">
-        <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-12">
-                    <h1>Search for Doctors</h1>
-                    <input type="text" name="special" placeholder="Search by speciality.">
-                    <input type="text" name="location" placeholder="Search by Location.">
-               </div>
-                <div class="col-md-12">  
-               <a href="../../../search/"><button>Search</button></a>
-               </div>
+    <section class="forgot-pass">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="dregihead">Change Password?</p>
             </div>
         </div>
-    </section> 
-
-<!--     <section class="patient-db">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                <p>Dashboard</p>
-               </div>
+                <div class="col-md-12" style="display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;">
+                <form>
+                  <input type="text" name="pass" placeholder="Enter your current password">
+                  <input type="text" name="pass1" placeholder="Current Password Again">
+                  <input type="text" name="newpass" placeholder="Enter NEW Password">
+                  <a href="#"><div class="btn dbtn">Change Password</div></a>
+                </form>
+                </div>
             </div>
         </div>
     </section>
-
-   
-
- -->
-
     <!--    Footer-->
-
     <footer>
         <div class="container-fluid ">
             <div class="row dfoot dpad">
                 <div class="col-md-8 dquick">
                     <h3>quick links</h3>
-
                     <div class="row">
-
                         <div class="col-md-4">
                             <ul class="dqli">
-                                <li><a href="../../../">Home</a></li>
-                                <li><a href="../../../about/">About Us</a></li>
-                                <li><a href="../../../services/">Our Services</a></li>
-                                <li><a href="../../../gallery/">Gallery</a></li>
-                                <li><a href="../../../contact/">Contact Us</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="../about/">About Us</a></li>
+                                <li><a href="../services/">Our Services</a></li>
+                                <li><a href="../gallery/">Gallery</a></li>
+                                <li><a href="../contact/">Contact Us</a></li>
                             </ul>
                         </div>
-
                         <div class="col-md-4">
                             <ul class="dqli">
                                 <li><a href="#">Sitemap</a></li>
@@ -143,7 +109,6 @@
                                 <li><a href="#">Privacy Policy</a></li>
                             </ul>
                         </div>
-
                         <div class="col-md-4 dprac">
                             <p>Phone: +91 9941761544</p>
                             <p class="dindent">+91 9941761544</p>
@@ -152,7 +117,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-4 dlast">
                     <h1>Dantalaya</h1>
                     <hr class="dfothr">
@@ -161,11 +125,11 @@
                     <p>#38/48, I floor, Bazar Street</p>
                     <p>Neelasandra, Bangalore-560047 </p>
                     <p>
-                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
-                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
-                     <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></i></a> 
-                </p>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></i></a>
+                    </p>
                 </div>
             </div>
             <div class="row dcopy">
@@ -175,12 +139,8 @@
             </div>
         </div>
     </footer>
-
-
-
-    <script src="../../../js/jquery.min.js"></script>
-    <script src="../../../js/bootstrap.min.js"></script>
-
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dashboard | Dantalaya</title>
+    <title>Lab Technician Change Password | Dantalaya</title>
 
     <link href="../../../css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../css/style.css" rel="stylesheet">
@@ -32,8 +32,8 @@
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="../dashboard/">Dashboard</a></li>
-                    <li><a href="../patient-profile/">Patient Profile</a></li>
+                    
+                    <li><a href="../technician-profile/">Technician Profile</a></li>
                     <li><a href="../changepassword/">Change Password</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="#">Logout</a></li>
@@ -82,58 +82,46 @@
         </div>
     </nav>
 
-
-
-
-    <section class="search-doctor">
-        <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-12">
-                    <h1>Search for Doctors</h1>
-                    <input type="text" name="special" placeholder="Search by speciality.">
-                    <input type="text" name="location" placeholder="Search by Location.">
-               </div>
-                <div class="col-md-12">  
-               <a href="../../../search/"><button>Search</button></a>
-               </div>
+   <section class="forgot-pass">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="dregihead">Change Password?</p>
             </div>
         </div>
-    </section> 
-
-<!--     <section class="patient-db">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                <p>Dashboard</p>
-               </div>
+                <div class="col-md-12" style="display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;">
+                <form>
+                  <input type="text" name="pass" placeholder="Enter your current password">
+                  <input type="text" name="pass1" placeholder="Enter New Password">
+                  <input type="text" name="newpass" placeholder="Enter NEW Password Again">
+                  <a href="#"><div class="btn dbtn">Change Password</div></a>
+                </form>
+                </div>
             </div>
         </div>
     </section>
-
-   
-
- -->
-
-    <!--    Footer-->
-
-    <footer>
+    
+<!--    Footer-->
+    
+<footer>
         <div class="container-fluid ">
             <div class="row dfoot dpad">
                 <div class="col-md-8 dquick">
                     <h3>quick links</h3>
-
+                    
                     <div class="row">
-
+                       
                         <div class="col-md-4">
                             <ul class="dqli">
-                                <li><a href="../../../">Home</a></li>
-                                <li><a href="../../../about/">About Us</a></li>
-                                <li><a href="../../../services/">Our Services</a></li>
-                                <li><a href="../../../gallery/">Gallery</a></li>
-                                <li><a href="../../../contact/">Contact Us</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="../about/">About Us</a></li>
+                                <li><a href="../services/">Our Services</a></li>
+                                <li><a href="../gallery/">Gallery</a></li>
+                                <li><a href="../contact/">Contact Us</a></li>
                             </ul>
                         </div>
-
+                        
                         <div class="col-md-4">
                             <ul class="dqli">
                                 <li><a href="#">Sitemap</a></li>
@@ -143,7 +131,7 @@
                                 <li><a href="#">Privacy Policy</a></li>
                             </ul>
                         </div>
-
+                           
                         <div class="col-md-4 dprac">
                             <p>Phone: +91 9941761544</p>
                             <p class="dindent">+91 9941761544</p>
@@ -152,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="col-md-4 dlast">
                     <h1>Dantalaya</h1>
                     <hr class="dfothr">
@@ -162,25 +150,27 @@
                     <p>Neelasandra, Bangalore-560047 </p>
                     <p>
                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
-                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
-                     <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></i></a> 
-                </p>
-                </div>
+                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a> 
+                </p></div>
             </div>
             <div class="row dcopy">
                 <div class="col-md-12">
-                    <p>Copyright © Dantalaya 2017. Developed by <a href="#">Padink</a></p>
+                    <p>Copyright © Dantalaya 2016. Developed by <a href="#">Padink</a></p>
                 </div>
             </div>
         </div>
     </footer>
 
-
-
+    
+   
+ 
+    <script src="../../../js/doctorvalidate.js"></script>
     <script src="../../../js/jquery.min.js"></script>
     <script src="../../../js/bootstrap.min.js"></script>
 
-</body>
-
+  </body>
 </html>
+    
+    
