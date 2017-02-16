@@ -178,7 +178,7 @@ var firstname = document.forms["contactForm"]["contactName"];
         }
         var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         var emailId = email.value;
-        if(!emailRegex.test(emailId) && emailId!= ""){
+        if(!emailRegex.test(emailId)){
           email.style.border = "1px solid red";
           document.getElementById("email_error").style.color = "red";
           document.getElementById("email_error").innerHTML="Enter valid email Id";
