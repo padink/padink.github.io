@@ -1,0 +1,211 @@
+ 
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 dabt">
+                  
+                  <p class="dserhead">Patient’s Benefit</p>
+                  
+                  <div class="row">
+            <img src="../images/234.png" alt="services">
+            </div>
+                   
+<p class="dserpad">
+Introducing Dantalaya – The one-stop-shop for all your family Dental needs. Standardized Dental clinics with focus sterilization
+and total hygiene. A smile can be a great asset and because this is so important it makes sense to give your teeth the best care
+with a simple yet eective oral hygiene routine. Postponing dental treatment will only aggravate the problem leading to serious
+infections and irreversible damage. </p>
+                  
+                   
+  <p>
+    <ul class="dserli">
+        <li>No need to worry about the treatment costs.</li>
+        <li>Payment options are tailor-made for every individual and every treatment procedure!</li>
+        <li>Be it a Root canal procedure/ implants/dentures for adults/braces treatment/replacing missing
+teeth/simple fillings/treatment for children/gum surgery/simple and wisdom teeth extractions/smile
+corrections/ cosmetic procedures etc.etc.. can be availed at your nearest Dentist by paying in installments. </li>
+    </ul>
+  </p>
+    
+     <hr class="dabthr">              
+    
+     <p>
+    <ul class="dserli">
+        <li>Treatment first: payments later! </li>
+        <li>Pay through: Credit card, debit card, post-dated cheques and monthly installments. Your Doctor will provide you with more
+information if you have none of the above options. Treatment for all the citizens irrespective of income. </li>
+        <li>Charges remain constant throughout India for most of the procedures! </li>
+        <li>The prices have been fixed to benefit the needy patients who otherwise would have postponed or ignored the Dental
+problems. </li>
+    </ul>
+  </p>           
+                
+        <hr class="dabthr">          
+                
+<p>
+    <ul class="dserli">
+        <li>Appointments will be scheduled according to your convenience. Reminders to visit your Dentist will be sent to avoid
+inconvenience. Executive appointments are available on request for the busy professionals. Dental treatment packages
+available for the entire family!</li>
+        <li>All treatment procedures at very aordable prices!</li>
+        <li>Meet expert Doctors to address all your dental issues! </li>
+        <li>Avail complete assessment of your oral health in the first appointment! </li>
+        <li>Get timely treatment for your children, early intervention reduces costs and anxiety in children.</li>
+        <li>Don't wait for that salary, get treatment first and avoid taking leaves. </li>
+        <li>Full-mouth oral rehabilitation programs available! </li>
+        <li>Receive bills online. </li>
+        <li>Get treatment anywhere in India! </li>
+        <li>Creating the largest network of Dental Practitioners across India to take care of your Dental needs.</li>
+        <li>Talk to your Doctor about more attractive oers!</li>
+    </ul>
+  </p>   
+               
+               <a href="../patientregister/"><div class="btn btn-block dbtn dbtn1">Register now</div></a>
+                </div>
+            </div>
+        </div>
+        
+      <hr class="dabthr"> 
+        
+         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 dabt">
+                  
+                  <p class="dserhead">For NRI/Foreigner’s Benefit </p>
+                  
+                  <div class="row">
+<!--            <img src="../images/patient.jpg" alt="services">-->
+            </div>
+               
+<p>
+    <ul class="dserli">
+        <li>Introducing for the first time in India; comprehensive dental care for NRIs and foreigners. </li>
+        <li>Get Dental treatment for your entire family at a Dentist near you! </li>
+        <li>Standardized Dental clinics with focus on sterilization and total hygiene! </li>
+        <li>Meet expert Doctors to address all your dental issues! </li>
+        <li>Treatment costs made very aordable. </li>
+        <li>Treatment first: payments later! </li>
+        <li>Flexible payment options; credit card, debit card, online payment and EMI facilities available. </li>
+        <li>Appointments will be scheduled according to your convenience.</li>
+        <li>Get treatment completed within stipulated time. </li>
+        <li>Get treatment anywhere in India. </li>
+        <li>Appointments will be scheduled according to your convenience. </li>
+        <li>Don't waste your vacation time; Executive appointment available on request!</li>
+        <li>Treatment for children and elderly at very attractive prices! </li>
+        <li>Full-mouth rehabilitation program available! </li>
+        <li>Cosmetic procedures to improve your smile! </li>
+        <li>Enhance your smile and make your trip to India a memorable one! </li>
+        <li>All Dental solutions under one roof! </li>
+    </ul>
+  </p>   
+               
+               <a href="../patientregister/"><div class="btn btn-block dbtn dbtn1">Register now</div></a>
+                </div>
+            </div>
+        </div>
+          
+      <hr class="dabthr">
+         
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 dabt">
+                  
+                  <p class="dserhead">Dentist Benefits</p>
+                  
+                  <div class="row">
+<!--            <img src="../images/patient.jpg" alt="services">-->
+            </div>
+               
+<p>
+Dantalaya is a platform exclusively catering to Dental Practitioners all over India. Creating the largest network 
+of Dental Practitioners across India. You will be responsible for bringing smiles for the population of India which 
+till now has taken Oral health and it's importance lightly. </p>
+<p>
+Zero worries about payments. Uniform treatment prices. Patients postpone treatment due to financial reasons. This 
+problem is prevailing in every clinic. This is taken care by providing EMI options for all Dental procedures . Now you 
+can sit and practice dentistry without worrying about the payment! </p>
+<p>
+90% of 1.3 billion Indians need Dental treatment. One Dentist cannot treat all patients. The network of Dentists will 
+provide Dental care to every individual. Patients have been categorized into different  groups. Treatment costs are 
+different for each category.  </p>
+<p>
+Dantalaya promises to provide patients to your clinic who have been briefed about treatment costs for various 
+procedures. Patients from different States and various backgrounds have registered throughout the country. The entire 
+country needs to know the importance of Oral hygiene and will consult you for more information and treat. </p>
+<p>
+One single platform for your clinical practice.  Attract patients like never before. Freedom from nagging patients. 
+Patients postponing treatment will be a thing of the past. Attract patients from all over the Globe (first time in the 
+country). Providing attractive Dental packages for Geriatric patients. Treatment costs for Foreigners and NRIs will be 
+different from others. Introducing full-mouth rehabilitation program for the first time. Upgrade your  practice  and 
+maintain patient records at the click of a button. Enjoy practice like never before .  Buy Dental products at the click of 
+a button. Find a Dental technician without any worries. Pay taxes at the click of a button. Time to organize your clinical 
+practice like never before. </p>
+<p>
+Patients complaints If any, will be the Dental Surgeon's responsibility and Dantalaya in anyway does not interfere in 
+treatment related issues. Be a part of the best network of Dentists across the globe. It's time to make Dentistry smile!
+
+ </p>   
+               
+               <a href="../doctorregister/"><div class="btn btn-block dbtn dbtn1">Register as dentist now</div></a>
+                </div>
+            </div>
+        </div>
+          
+      <hr class="dabthr">  
+      
+                <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 dabt">
+                  
+                  <p class="dserhead">House Surgeon’s Benefits</p>
+                  
+                  <div class="row">
+<!--            <img src="../images/patient.jpg" alt="services">-->
+            </div>
+               
+<p>
+    <ul class="dserli">
+        <li>Unique opportunity for interns across the country to gain clinical exposure during internship.</li>
+        <li>Interns will be certified with experience certificates from the respective clinics.</li>
+        <li>Learn the art of Dentistry from senior Doctors.</li>
+        <li>Increase your knowledge about private practice.</li>
+        <li>Expose yourself to multiple cases with hands-on training.</li>
+        <li>Empower yourself with dierent skills.</li>
+        <li>Be ready to start your own practice.</li>
+        <li>Time to serve the community starts early.</li>
+    </ul>
+  </p>   
+               
+               <a href="../surgeonregister/"><div class="btn btn-block dbtn dbtn1">Register as a House Surgeon now</div></a>
+                </div>
+            </div>
+        </div>
+          
+      <hr class="dabthr">
+    
+                         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 dabt">
+                  
+                  <p class="dserhead">Dental Laboratory Benefits</p>
+                  
+                  <div class="row">
+<!--            <img src="../images/patient.jpg" alt="services">-->
+            </div>
+               
+<p>
+    <ul class="dserli">
+        <li>Unique opportunity for Dental labs all over India to improve practice.</li>
+        <li>Reach out to more Doctors with help of us</li>
+        <li>Receive orders everyday and Meet new Doctors at your convenient time</li>
+        <li>Easy payment options for the first time in India.</li>
+    </ul>
+  </p>   
+               
+               <a href="../technicianregister/"><div class="btn btn-block dbtn dbtn1">Register as a lab technician now</div></a>
+                </div>
+            </div>
+        </div>
+   
+         
+    </section>
