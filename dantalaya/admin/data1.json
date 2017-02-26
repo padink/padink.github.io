@@ -3,5 +3,10 @@
         "id": 0,
         "name": "Dinesh Kumar",
         "position": "Dentist"
+    },
+    {
+        "id": 1,
+        "name": "Karthik",
+        "position": "Patient"
     }
 ]
